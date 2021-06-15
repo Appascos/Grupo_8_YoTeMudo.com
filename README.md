@@ -36,3 +36,5 @@ Curiosa,  por lo que me interesan una gran diversidad de cosas: matem√°ticas, m√
 
 Link del tablero de trabajo en donde se encuentran trabajando
 https://trello.com/b/nmx8aNPS/proyecto-dh
+
+Prueba de gitignore
