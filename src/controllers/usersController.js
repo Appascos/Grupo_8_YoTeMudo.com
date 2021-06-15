@@ -3,8 +3,8 @@ const usersController = {
        res.render ('login');
     },
 
-    register: (req,res) => {
-        res.render ('register');
+    registro: (req,res) => {
+        res.render ('registro');
     }
 };
 
