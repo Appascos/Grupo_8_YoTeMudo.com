@@ -10,5 +10,7 @@ router.get('/producto', productController.producto);
 router.get('/carrito', productController.carrito);
 router.get('/login', usersController.login);
 router.get('/registro', usersController.registro);
+router.get('/cargaProducto',productController.carga);
+router.get('/edicionProducto',productController.edicion);
 
 module.exports = router;

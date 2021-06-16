@@ -4,6 +4,12 @@ const productController = {
     },
     carrito: (req,res) => {
         res.render ('carrito');
+    },
+    carga: (req,res) => {
+        res.render ('cargaProducto');
+    },
+    edicion:  (req,res) => {
+        res.render ('edicionProducto');
     }
 };
 

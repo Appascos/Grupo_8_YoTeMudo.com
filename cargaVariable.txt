@@ -1,0 +1,15 @@
+                <div class="formulario_de_info">
+                    <div class="packUnitario">{
+                        <% for (let i=0; i<=3; i++) { %>
+                            <% if (i==idCamion) { %>
+                                <img src="/img/camiones/flota-00_2.jpg" alt="Camion Mudanza 1" class="imagenCamion" id= camion1>
+                            <% } %>
+                        <% } %>
+                        <h3>PACK <%= numero %></h3>
+                        <span>Radio <%= cantidadKm %> </span> <br>
+                        <span><% capacidad %> m2 </span> <br>
+                        <span>$<% costoEnPesos %></span> <br>
+                        <span><% medidas %> </span> <br>
+                        <span><a href="#"><img src="/img/carrito1.png" alt="" class="btn-precio "></a></span>
+                    </div>
+                </div>
